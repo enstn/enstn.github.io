@@ -1,0 +1,8 @@
+<span class="text-highlight-bold>smash the console.log() function</span> <br> <br>
+
+Here's a fancy term for non-coders reading this: debugging. You copy-pasted some code from ClaudeAI but it doesn't work?
+You have already searched up the error on reddit, stackoverflow and ChatGPT, but have found nothing?
+You don't know why? Well console.log() is here to save the day. <br> <br>
+
+How to debug -> Go to the code portion you suspect is not working. Put a console.log after critical returns or function calls, deploy & check the web
+console for whether the print statement is reached or not.

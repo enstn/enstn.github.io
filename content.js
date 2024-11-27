@@ -197,7 +197,7 @@ export const regionContent = {
             },
             "info.2": {
                 title: "Hotkeys",
-                accentColor: "rgba(255, 225, 225, 1)",
+                // accentColor: "rgba(255, 225, 225, 1)", maybe pinkish comes from here
                 subtitle: "not vim-styled, sorry F.K.",
                 content: [
                     {
@@ -246,9 +246,9 @@ export const regionContent = {
                 type: "text",
                 content: `
                 <div class="date-item">
-                    <span class="region-link" data-region="random" data-subpage="random.3">Website-Building for Dummies</span>
+                    <span class="region-link" data-region="random" data-subpage="random.3">Webdev Takeaways</span>
                     <div class="date-dots"></div>
-                    <span class="date-label">web-frontend rant</span>
+                    <span class="date-label">frontend rant</span>
                 </div>
                 `
             }
@@ -284,25 +284,26 @@ export const regionContent = {
                 ]
             },
             "random.3": {
-                title: "Website-Building for Dummies",
-                subtitle: "",
+                title: "Webdev Takeaways",
+                subtitle: "lessons learned while developing this website",
                 accentColor: "rgba(225, 225, 225, 1)",
                 content: [
                     {
                         type: "text",
-                        textFile: "content/rant_frontend/rant_frontend1"
+                        textFile: "content/random/webdev/webdevintro"
                     },
                     {
                         type: "highlight",
-                        textFile: "content/rant_frontend/rant_frontend2"
+                        textFile: "content/random/webdev/webdev1"
                     },
                     {
-                        type: "text",
-                        textFile: "content/rant_frontend/rant_frontend3"
+                        type: "highlight",
+                        textFile: "content/random/webdev/webdev2"
                     },
                     {
-                        type: "divider"
-                    }
+                        type: "highlight",
+                        textFile: "content/random/webdev/webdev3"
+                    },
                 ]
             }
         },

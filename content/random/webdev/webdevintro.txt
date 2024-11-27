@@ -1,0 +1,3 @@
+In hindsight of the developement of this website, I can see that I made a lot of mistakes which cost me time and effort. 
+I will quickly elaborate them here so you can learn from my mistakes and have a smoother sailing in your own website-building journey.
+Each point will end with a ->, which notates a practical thing you can do immediately to get started.
