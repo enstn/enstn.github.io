@@ -1,12 +1,16 @@
-<span class="text-highlight-bold">Just start you unicell.</span> <br> <br>
+<span class="text-highlight-bold">how to start</span> <br> <br>
 
-Basic ass advice, but it has to be said. Minimalistic website building has become easy peasy 🍋 squeezy nowadays. 
-
-<br> <br>
-You geniunely don't even have to know HTML or javascript to build a website. Build with god damn LLMs, it doesn't matter.
-What matters is you start creating something, anything really. <br> <br>
+Use githubpages. It's free, you can write code, deploy your website and link to a custom domain. <br> <br>
 
 -> Go to github.com; create an account; create a repo called <yourusername>.github.io; make an index.html file; deploy your repo 
 using githubpages (just read the doc); then use stackoverflow, reddit, github, ChatGPT, ClaudeAI or whatever to write a hello world text in your
 html.file. <br> <br>
+ 
+If you're an ETH student thinking about using your given ETH domain - I recommend not to (except for TAs). I started 
+there as well and have now switched to githubpages. Several reasons: <br> <br>
+
+1) ETH domains "only" have PHP and CGI (more than enough for static websites)  <br> 
+2) You need to ssh and login with cisco connect every time <br>
+3) ETH servers down = you can't code, which happens more often than you think  <br> 
+4) If you use vscode, you need to delete .vscode-server with a terminal ssh session before every vscode session (bc ETH servers have permission issues with VScode ssh extenstion) 
  

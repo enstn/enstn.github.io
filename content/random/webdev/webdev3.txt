@@ -1,4 +1,4 @@
-<span class="text-highlight-bold">the goat: console.log()</span> <br> <br>
+<span class="text-highlight-bold">console.log() is the goat</span> <br> <br>
 
 Here's a fancy term for non-coders reading this: debugging. You copy-pasted / wrote some code but it doesn't work as intented?
 You don't know which part of the code? Well console.log() is here to save the day. <br> <br>

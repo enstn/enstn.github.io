@@ -1,15 +1,20 @@
-<span class="text-highlight-bold">setting up squarespace custom domain for github pages</span> <br> <br>
+<span class="text-highlight-bold">LLMs are your biggest friends and enemies</span> <br> <br>
 
-Here's a step by step: <br> <br>
+If you're gonna use LLMs - please don't use ChatGPT. As someone who is geniunely a beginner in coding,
+even I am able to confidently say that ChatGPT sucks at coding (as of Nov 27th 2024). Go for ClaudeAI. <br> <br> 
 
-1) make sure your repo is already deployed to github pages <br> <br>
-2) in terminal, run $dig yourusername.github.io to get IP addresses <br> <br>
-3) use the numbers and set up four custom DNS settings in squarespace like this: <br>
-Host: @ | Type: A | Data: insertyourIPaddresses <br> <br>
-4) add the final custom record for CNAME: <br>
-Host: www | Type: CNAME | Data: yourusername.github.io <br> <br>
-5) in github, create a CNAME file in root dir of your publishing branch with your domain name in it <br> <br>
-6) in github repo settings, go to pages and check whether custom domain has found CNAME file or not <br> <br>
-7) click on check DNS and wait, this might take a while (24 hours for me) <br> <br>
-8) after success, click force enable https; you should be able to see your code deployed on your custom domain! <br> <br>
+Be careful with LLM usage. They take away the process of thrifting through different internet sites and reading endless documentations
+to piece together a solution. 
 
+<br> <br> Admittedly, that's a great way to jumpstart your project (especially for non-coders). But in the long-term, overusage will 
+catch up to you once your project becomes more complex. I had to deal with this myself.
+
+<br> <br> LLMs are not good enough yet to zero-shot coding problems, so you'll be forced to
+debug a codebase which you don't quite understand. (You'll likely just end up reading the docs nonetheless & manually fix the code - 
+get scammed into actual coding lol) <br> <br>
+
+-> non-coders: ClaudeAI for coding, ChatGPT for explaining; pray and hope for errorless code (might need a few attempts); threatening self-harm 
+will probably increase quality of code.<br> <br>
+
+-> beginner-coders: leverage LLM as teacher, prompt sth like "Never return full code & play a role of an instructor. 
+Help me diagnose the problem at hand & guide me towards learning the most efficient solution approaches." <br> <br>
