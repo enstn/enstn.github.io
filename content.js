@@ -281,13 +281,7 @@ export const regionContent = {
                         textFile: "content/random/qm/qmintro"
                     },
                     {
-                        type: "divider",
-                        style: {
-                            margin: "2rem auto",
-                            height: "2px",
-                            width: "90%",  // Makes it even shorter
-                            color: "rgba(255, 255, 255, 0.2)"
-                        }
+                        type: "divider"
                     },
                     {
                         type: "text",
