@@ -285,7 +285,7 @@ export const regionContent = {
             },
             "random.3": {
                 title: "Webdev Takeaway Lessons",
-                subtitle: "my lessons learned while developing this website, for you to take away <3",
+                subtitle: "my lessons learned while developing this website, for you to take away",
                 content: [
                     {
                         type: "text",
