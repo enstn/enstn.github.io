@@ -1,8 +1,8 @@
-<span class="text-highlight-bold>Don't be afraid to start.</span> <br> <br>
+<span class="text-highlight-bold>Just fcking start you unicell.</span> <br> <br>
 
 Basic ass advice, I know, I know. But it has to be said. Minimalistic website building has become easy peasy 🍋 squeezy nowadays. 
 And by easy, I mean easy af. You geniunely don't even have to know coding to build a website. Build with god damn LLMs, it doesn't matter.
-What matters is you start building something, anything really. <br> <br>
+What matters is you start creating something, anything really. <br> <br>
 
 How to get started: -> Go to github.com, create an account, create a repo called <yourusername>.github.io. Crate an index.html file. Deploy your repo 
 using githubpages (just read the doc). Then use stackoverflow, reddit, github, ChatGPT, ClaudeAI or whatever to write a hello world text in your
