@@ -246,9 +246,9 @@ export const regionContent = {
                 type: "text",
                 content: `
                 <div class="date-item">
-                    <span class="region-link" data-region="random" data-subpage="random.3">Webdev Takeaways</span>
+                    <span class="region-link" data-region="random" data-subpage="random.3">Website-Developement 101</span>
                     <div class="date-dots"></div>
-                    <span class="date-label">frontend rant</span>
+                    <span class="date-label">key takeaways</span>
                 </div>
                 `
             }
@@ -284,8 +284,8 @@ export const regionContent = {
                 ]
             },
             "random.3": {
-                title: "Webdev Takeaway Lessons",
-                subtitle: "my lessons learned while developing this website, for you to take away",
+                title: "Website-Developement 101",
+                subtitle: "for you, to avoid difficulties I had while developing this website, ",
                 content: [
                     {
                         type: "text",

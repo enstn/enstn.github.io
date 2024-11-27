@@ -12,5 +12,6 @@ there as well and have now switched to githubpages. Several reasons: <br> <br>
 1) ETH domains "only" have PHP and CGI (more than enough for static websites)  <br> 
 2) You need to ssh and login with cisco connect every time <br>
 3) ETH servers down = you can't code, which happens more often than you think  <br> 
-4) If you use vscode, you need to delete .vscode-server with a terminal ssh session before every vscode session (bc ETH servers have permission issues with VScode ssh extenstion) 
+4) If you use vscode, you need to delete .vscode-server with a terminal ssh session before every vscode session
+(bc ETH servers have permission issues with VScode ssh extention) <br>
  

@@ -1,7 +1,7 @@
 <span class="text-highlight-bold">"clean code" is a scam</span> <br> <br>
 
 Whoever said that functions should only do one thing and at max. be four lines long - nuh uh.
-Seriously, don't do it. No one is going to look at your shitty website and think: "Damn, I hope the codebase of this is structured like Kant."
+Seriously, don't do it. No one is looking at my shitty website and thinking: "Damn, I hope the codebase of this is structured like Kant."
 
 <br> <br> And if someone was to look into it, who on earth enjoys reading Kant? Yeah right, look up 500 different definitions 
 in 500 different locations so you can understand the first god damn sentence. What a tryhard. <br> <br>
