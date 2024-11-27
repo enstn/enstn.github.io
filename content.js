@@ -105,7 +105,7 @@ title: "Imagined Speech Recognition",
 */
 export async function loadTextContent(filename) {
     try {
-        const response = await fetch(`/~lejiang/${filename}.txt`);
+        const response = await fetch(`./${filename}.txt`);
         if (!response.ok) throw new Error(`Failed to load ${filename}`);
         return await response.text();
     } catch (error) {
