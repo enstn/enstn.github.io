@@ -1,4 +1,4 @@
-<span class="text-highlight-bold>smash the console.log() function</span> <br> <br>
+<span class="text-highlight-bold">smash the console.log() function</span> <br> <br>
 
 Here's a fancy term for non-coders reading this: debugging. You copy-pasted some code from ClaudeAI but it doesn't work?
 You have already searched up the error on reddit, stackoverflow and ChatGPT, but have found nothing?

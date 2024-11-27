@@ -175,7 +175,7 @@ export const regionContent = {
         subpages: {
             "info.1": {
                 title: "Version Control",
-                accentColor: "rgba(255, 225, 225, 1)",
+                // accentColor: "rgba(255, 225, 225, 1)",
                 subtitle: "",
                 content: [
                     {

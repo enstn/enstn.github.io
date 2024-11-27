@@ -1,4 +1,4 @@
-<span class="text-highlight-bold>LLMs are your biggest friends and enemies</span> <br> <br>
+<span class="text-highlight-bold">LLMs are your biggest friends and enemies</span> <br> <br>
 
 First of all, if you're gonna use LLMs - please don't use ChatGPT. As someone who is geniunely a noob in coding,
 even I am able to confidently say that ChatGPT sucks at coding (as of Nov 27th 2024). Go for ClaudeAI. <br> <br> 

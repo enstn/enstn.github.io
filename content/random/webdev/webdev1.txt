@@ -1,4 +1,4 @@
-<span class="text-highlight-bold>Just fcking start you unicell.</span> <br> <br>
+<span class="text-highlight-bold">Just fcking start you unicell.</span> <br> <br>
 
 Basic ass advice, I know, I know. But it has to be said. Minimalistic website building has become easy peasy 🍋 squeezy nowadays. 
 And by easy, I mean easy af. You geniunely don't even have to know coding to build a website. Build with god damn LLMs, it doesn't matter.
