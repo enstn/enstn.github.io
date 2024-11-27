@@ -7,12 +7,14 @@ Be careful with LLM usage. They take away the process of thrifting through diffe
 to piece together a solution. 
 
 <br> <br> Admittedly, that's a great way to jumpstart your project (especially for non-coders). But in the long-term, overusage will 
-catch up to you once your project becomes bigger and more complex. I experienced it myself.
+catch up to you once your project becomes more complex. I had to deal with this myself.
 
 <br> <br> LLMs are not good enough yet to zero-shot coding problems, so you'll be forced to
-debug a codebase which you don't understand. (So you'll have to read the docs nonetheless, get scammed lol) <br> <br>
+debug a codebase which you don't quite understand. (You'll likely just end up reading the docs nonetheless & manually fix the code - 
+get scammed into actual coding lol) <br> <br>
 
--> non-coders: ClaudeAI for coding, ChatGPT for explaining; pray and hope for errorless code<br> <br>
+-> non-coders: ClaudeAI for coding, ChatGPT for explaining; pray and hope for errorless code (might need a few attempts); threatening self-harm 
+will probably increase quality of code.<br> <br>
 
--> beginner-coders: leverage LLM as teacher: "Never return full code & play a role of an instructor. Help me diagnose the problem at hand & guide 
-me towards learning the most efficient solution approaches." <br> <br>
+-> beginner-coders: leverage LLM as teacher, prompt sth like "Never return full code & play a role of an instructor. 
+Help me diagnose the problem at hand & guide me towards learning the most efficient solution approaches." <br> <br>

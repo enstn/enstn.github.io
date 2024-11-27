@@ -284,9 +284,8 @@ export const regionContent = {
                 ]
             },
             "random.3": {
-                title: "Webdev Takeaways",
-                subtitle: "lessons learned while developing this website",
-                accentColor: "rgba(225, 225, 225, 1)",
+                title: "Webdev Takeaway Lessons",
+                subtitle: "my lessons learned while developing this website, for you to take away <3",
                 content: [
                     {
                         type: "text",
@@ -303,6 +302,14 @@ export const regionContent = {
                     {
                         type: "highlight",
                         textFile: "content/random/webdev/webdev3"
+                    },
+                    {
+                        type: "highlight",
+                        textFile: "content/random/webdev/webdev4"
+                    },
+                    {
+                        type: "highlight",
+                        textFile: "content/random/webdev/webdev5"
                     },
                 ]
             }

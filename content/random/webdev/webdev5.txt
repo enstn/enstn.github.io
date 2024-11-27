@@ -1,0 +1,14 @@
+<span class="text-highlight-bold">squarespace custom domain for github pages</span> <br> <br>
+
+Here's a step by step: <br> <br>
+
+1) make sure your repo is already deployed to github pages <br> <br>
+2) in terminal, run $dig <yourusername>.github.io to get IP addresses <br> <br>
+3) use the numbers and set up four custom DNS settings in squarespace like this: <br>
+Host: @ | Type: A | Data: <IP address> <br> <br>
+4) add the final custom record with your CNAME: <br>
+Host: www | Type: CNAME | Data: <yourusername>.github.io <br> <br>
+5) in github, create a CNAME file in root dir of your publishing branch with your domain name in it
+6) in github repo settings, go to pages and check whether custom domain has found CNAME file or not
+7) click on check DNS and wait, this might take a while (24 hours for me)
+8) after success, click force enable https and you're done.
