@@ -274,12 +274,10 @@ export const regionContent = {
                 content: [
                     {
                         type: "text",
-                        content: `
-                        The best thing about writing an intro to quantum mechanics is that <span class=\"text-bold\">nothing matters</span>. <br>
-                        You avoided physics in highschool? Perfect. 
-                        You don't have an intuition for physics? Even better! <br> <br>
-                        Quantum mechanics is counterintuitive, so not having a newtonian intuition at all actually comes in handy. 
-                        `
+                        textFile: "content/random/qm/qmintro"
+                    },
+                    {
+                        type: "divider"
                     },
                 ]
             },
