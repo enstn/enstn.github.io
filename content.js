@@ -289,10 +289,6 @@ export const regionContent = {
                 accentColor: "rgba(225, 225, 225, 1)",
                 content: [
                     {
-                        type: "highlight",
-                        textFile: "content/random/webdev/test"
-                    }, 
-                    {
                         type: "text",
                         textFile: "content/random/webdev/webdevintro"
                     },

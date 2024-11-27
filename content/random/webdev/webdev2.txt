@@ -1,15 +1,18 @@
 <span class="text-highlight-bold">LLMs are your biggest friends and enemies</span> <br> <br>
 
-First of all, if you're gonna use LLMs - please don't use ChatGPT. As someone who is geniunely a noob in coding,
+If you're gonna use LLMs - please don't use ChatGPT. As someone who is geniunely a beginner in coding,
 even I am able to confidently say that ChatGPT sucks at coding (as of Nov 27th 2024). Go for ClaudeAI. <br> <br> 
 
-Second, be careful with LLM usage. They take away the process of thrifting through different internet sites and reading endless documentations
-to piece together a solution. I admit, that's a great way to jumpstart your project (especially for non-coders). Overusage will 
-catch up to you once your project becomes bigger and more complex though. LLMs are not good enough yet to zero-shot coding problems, so you'll be forced to
+Be careful with LLM usage. They take away the process of thrifting through different internet sites and reading endless documentations
+to piece together a solution. 
+
+<br> <br> Admittedly, that's a great way to jumpstart your project (especially for non-coders). But in the long-term, overusage will 
+catch up to you once your project becomes bigger and more complex. I experienced it myself.
+
+<br> <br> LLMs are not good enough yet to zero-shot coding problems, so you'll be forced to
 debug a codebase which you don't understand. (So you'll have to read the docs nonetheless, get scammed lol) <br> <br>
 
-How to leverage LLMs (non-coders) -> ClaudeAI for coding, ChatGPT for explaining. <br> <br>
+-> non-coders: ClaudeAI for coding, ChatGPT for explaining; pray and hope for errorless code<br> <br>
 
-How to leverage LLms (coders) -> Abuse LLM as teacher: "Never return full code & play a role of an instructor. Help me diagnose the problem at hand & guide 
-me towards learning the most efficient solution approaches." Understand problem first. Then reddit, stackoverflow and thinking about possible solutions. 
-Try to implement the code snippets. Or bias LLM toward solution, then play around, modify & rewrite the LLM code to get a feeling.  
+-> beginner-coders: leverage LLM as teacher: "Never return full code & play a role of an instructor. Help me diagnose the problem at hand & guide 
+me towards learning the most efficient solution approaches." <br> <br>

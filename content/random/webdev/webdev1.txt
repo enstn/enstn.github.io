@@ -1,11 +1,12 @@
-<span class="text-highlight-bold">Just fcking start you unicell.</span> <br> <br>
+<span class="text-highlight-bold">Just start you unicell.</span> <br> <br>
 
-Basic ass advice, I know, I know. But it has to be said. Minimalistic website building has become easy peasy 🍋 squeezy nowadays. 
-And by easy, I mean easy af. You geniunely don't even have to know coding to build a website. Build with god damn LLMs, it doesn't matter.
+Basic ahh advice, but it has to be said. Minimalistic website building has become easy peasy 🍋 squeezy nowadays. 
+
+<br> <br>
+You geniunely don't even have to know coding to build a website. Build with god damn LLMs, it doesn't matter.
 What matters is you start creating something, anything really. <br> <br>
 
-How to get started: -> Go to github.com, create an account, create a repo called <yourusername>.github.io. Crate an index.html file. Deploy your repo 
-using githubpages (just read the doc). Then use stackoverflow, reddit, github, ChatGPT, ClaudeAI or whatever to write a hello world text in your
+-> Go to github.com; create an account; create a repo called <yourusername>.github.io; make an index.html file; deploy your repo 
+using githubpages (just read the doc); then use stackoverflow, reddit, github, ChatGPT, ClaudeAI or whatever to write a hello world text in your
 html.file. <br> <br>
  
-Boom. You now have a working website with https security where you can build anything you want.

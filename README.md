@@ -13,5 +13,5 @@
 - [ ] very simple project progress time-line
 - [ ] a lil local chatbot to lower performance even more pahahah 
 - [ ] brain game
-- [ ] local cache still not working sometimes (text import)
+- [ ] local cache reset still not working on new text import
 - [ ] switch from .txt to .md based content rendering
