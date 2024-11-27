@@ -1,0 +1,16 @@
+What do you think, what percentage in our final batch of hard balls will be black? <br> <br>
+
+Since you are a smart and logical individual who hasn’t been doing too much drugs and therefore possesses a healthy prefrontal cortex, 
+you will hopefully grin at this task and wonder why this awfully ballsy introduction to quantum mechanics is so 
+<span class="italic">easy</span>. <br> <br>
+
+So here's our prediction: <span class="italic">since we already filtered out all white balls at first, only black balls got through in the first place. 
+So of course 100% of the balls after the hard/squishy sorting will be black, since no white ball ever arrived at the hard/squishy sorting! </span>
+<br> <br>
+
+PAHAHAHH how easy, right? Except it's wrong. The outcome in every single experiment done by researchers far smarter than us has precisely
+produces one outcome so far: <br> <br>
+
+<span class="highlight"> The balls that were 100% black before hard/squishy sorting now consists of 50% white balls and 50% black balls after the hard/squishy sorting. </span> <br> <br>
+
+Welcome to quantum mechanics, baby! What the fuck is going on?

@@ -293,6 +293,29 @@ export const regionContent = {
                         type: "text",
                         textFile: "content/random/qm/qm1"
                     },
+                    {
+                        type: "list",
+                        title: "Now this is where the fun begins. What will happen if we:",
+                        items: [
+                            "ask our Prof to sort the fancy balls by its colour first (black / white)",
+                            "take only the black balls and let our Prof sort it again by its complexity (hard / squishy)",
+                            "from this batch, only take the hard ones",
+                            "using this batch of hard balls, ask our Prof again to sort it by its colour"
+                        ]
+                    },
+                    {
+                        type: "text",
+                        textFile: "content/random/qm/qm2"
+                    },
+                    {
+                        type: "divider",
+                        style: {
+                            margin: "2rem auto",
+                            height: "2px",
+                            width: "90%",  // Makes it even shorter
+                            color: "rgba(255, 255, 255, 0.2)"
+                        }
+                    },
                 ]
             },
             "random.3": {
