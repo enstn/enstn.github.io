@@ -1,0 +1,14 @@
+Like any good old physics introduction, we start with something every well-practised enjoyer of science loves to play around with: balls. <br> <br>
+
+Let's not stop here, let's be fancy and have different kind of balls. They shall be either hard or squishy & either dark or shiny. 
+Let's not stop here either. Remember? Nothing matters, we can do anything we want. So lets bring along some magical measurment boxes. <br> <br>
+
+These magical boxes can distinguish between different kind of balls. How do they work? Eh, doesn't matter. If you want,
+just imagine your professor sitting in a box. We throw a ball at him, he looks at it, sees what kind of ball it is, and 
+throws the ball out in a given direction dependent on the ball type. He might not be happy doing that, 
+but he does an excellent job at it (he’s a professor, after all). <br> <br>
+
+The only takeaway is that we can filter out a ball by it's attribute (hard/squishy and dark/shiny). 
+
+
+
