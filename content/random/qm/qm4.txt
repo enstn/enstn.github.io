@@ -1,0 +1,4 @@
+I hope I was able to present a somewhat interesting yet simple representation for non-stem people on what makes quantum mechanics so special. 
+Keep in mind that the metaphors are hyperboles, macroscopic objects don't exhibit quantum behaviour for probabilistic reasons. Tha block of cheese 
+you threw at me in retaliation of this cheesy metaphor <span class="text-italic">could</span> indeed hit an alien on mars instead, but the probablility
+is basically zero since it's not a quantum object.

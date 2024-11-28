@@ -271,6 +271,7 @@ export const regionContent = {
             "random.2": {
                 title: "Cheese Is Where The Magic Happens",
                 subtitle: "inspired by MIT spring lectures on quantum mechanics by Prof. Adams",
+                accentColor: "rbga(225, 225, 225, 0.8",
                 content: [
                     {
                         type: "highlight",
@@ -318,6 +319,13 @@ export const regionContent = {
                         type: "highlight",
                         textFile: "content/random/qm/qmquote"
                     },
+                    {
+                        type: "text",
+                        textFile: "content/random/qm/qm4"
+                    },
+                    {
+                        type: "divider"
+                    }
                 ]
             },
             "random.3": {
