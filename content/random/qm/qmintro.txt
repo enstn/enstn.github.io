@@ -3,11 +3,12 @@ why it's not quantum mechanics that is scary, but a block of <span class="text-i
 Use this knowledge to impress your crush or something. <br> <br>
 
 First of all, don't be intimidated. It's not rocket science, only quantum mechanics. Look, you avoided physics in highschool? Perfect. 
-You don't have an intuition for maths? Hell yeah. This is a safe place, I won't let any scary greek symbols hurt you.  <br> <br>
+You don't have an intuition for maths? Hell yeah. This is a safe place, I won't let any scary greek symbols or bra-kets hurt you.  <br> <br>
 
-This is actually the best thing about writing / reading an intro to quantum mechanics: 
+This is actually the best thing about writing/reading an intro to quantum mechanics: 
 <span class="text-italic">for now, nothing matters</span>. <br> <br>
 
-Quantum mechanics is counterintuitive, so not having a newtonian intuition at all might actually come in handy. So put on your lab coat and 
+Quantum mechanics is counterintuitive, so not having a newtonian intuition at all might actually come in handy. (This is a
+blatant lie and only holds true for this intro.) So put on your lab coat and 
 some glasses to look smart and let's dive straight in 🐌
 

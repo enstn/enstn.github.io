@@ -2,5 +2,5 @@ For us, it is the behaviour of big objects that seem intuitive and therefore cor
 while in reality it is the behaviour of smaller elements that dictates a fundamental truth.
 <br> <br>
 
-The odd thing is not the weird behaviour of a single electron, but the miracle that taking 10^27 of them makes it begin to behave like “normal” god damn cheese!
+The odd thing is not the weird behaviour of a single electron, but the miracle that taking 10^27 of them makes them behave like normal god damn cheese!
 (Hence the title of this chapter)
