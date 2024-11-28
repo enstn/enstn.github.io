@@ -272,7 +272,7 @@ body {
     z-index: 90;
 
     /* colour diff between browsers  */
-    background: rgba(0, 0, 0, 0.7); 
+    background: rgba(0, 0, 0, 0.8); 
     -webkit-backdrop-filter: blur(7px);
     backdrop-filter: blur(7px);
 }
