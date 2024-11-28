@@ -1,8 +1,8 @@
 <span class="text-highlight-bold">how to start</span> <br> <br>
 
-Use githubpages. It's free, you can write code, deploy your website and link to a custom domain. <br> <br>
+Use githubpages. It's free, you can write code, deploy your website and host a custom domain. <br> <br>
 
--> Go to github.com; create an account; create a repo called <yourusername>.github.io; make an index.html file; deploy your repo 
+-> Go to github.com; create an account; create a repo called yourusername.github.io; make an index.html file; deploy your repo 
 using githubpages (just read the doc); then use stackoverflow, reddit, github, ChatGPT, ClaudeAI or whatever to write a hello world text in your
 html.file. <br> <br>
  
