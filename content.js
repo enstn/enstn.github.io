@@ -310,6 +310,14 @@ export const regionContent = {
                             color: "rgba(255, 255, 255, 0.2)"
                         }
                     },
+                    {
+                        type: "text",
+                        textFile: "content/random/qm/qm3"
+                    },
+                    {
+                        type: "highlight",
+                        textFile: "content/random/qm/qmquote"
+                    },
                 ]
             },
             "random.3": {
