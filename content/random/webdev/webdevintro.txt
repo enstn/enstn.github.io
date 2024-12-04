@@ -1,3 +1,0 @@
-I made a lot of mistakes costing me time and effort while developing this website. The key takeaways are quickly 
-elaborated here to hopefully help you a little bit. I wish you smooth sailing in your own website-building journey. <br> <br>
-To encourage you to start, each note will include practical tools you can implement immediately (denoted by ->)

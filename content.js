@@ -103,15 +103,10 @@ title: "Imagined Speech Recognition",
         },
         accentColor: "rgba(255, 255, 255, 1)"
 */
+import { loadMarkdownContent } from './md_loader.js';
+
 export async function loadTextContent(filename) {
-    try {
-        const response = await fetch(`./${filename}.txt`);
-        if (!response.ok) throw new Error(`Failed to load ${filename}`);
-        return await response.text();
-    } catch (error) {
-        console.error(`Error loading ${filename}:`, error);
-        return 'Content loading failed.';
-    }
+    return loadMarkdownContent(filename);
 }
 
 export const regionContent = {
@@ -120,36 +115,8 @@ export const regionContent = {
         subtitle: "Welcome, you magnificent bloop of cells!",
         content: [
             {
-                type: "highlight",
-                content: `
-                This website documents my discovery progress and <span class=\"region-link\" data-region=\"booklist\">readings</span> regarding: <br> 
-                ->  <span class=\"text-bold\">consciousness</span>, <span class=\"text-bold\">artificial intelligence</span> & <span class=\"text-bold\">neurobiology</span> 
-            `
-            },
-            {
-                type: "text",
-                content: `
-                ... and some other <span class=\"region-link\" data-region=\"random\">random stuff</span> to further increase entropy. 
-                Blogging here grants my family peace from my eternal yapping. 
-                If you experience website issues, please check the <span class=\"region-link\" data-region=\"info\" data-subpage=\"info.1\">version control</span>. 
-                `
-            },
-            {
-                type: "highlight",
-                content: `
-                To explore the website, just click on links that peak your interest or the tiny boxes on your left. 
-                <span class=\"region-link\" data-region=\"info\" data-subpage=\"info.2\">Hotkeys</span> are also available.
-                Clicking on the brain might hold a little surprise :) 
-                `
-            },
-            {
-                type: "list",
-                title: "Few Things About Me",
-                items: [
-                    "electrical engineering student at ETH Zurich",
-                    "massive curiosity crush on the topics mentioned above",
-                    "currently working on telepathy; here's the <span class=\"region-link\" data-region=\"1\" data-subpage=\"1.1\">intro</span> if you're interested",
-                ]
+              type: "text",
+              textFile: "about_this_website/welcome"
             },
             {
                 type: "divider"
@@ -157,8 +124,6 @@ export const regionContent = {
             {
                 type: "text",
                 content: `
-                Huge shoutout to Francesco Michlini for providing a free brain.glb model and a 3D rendering tutorial. Special thanks 
-                to my sister for being the most patient web testclient. <br> <br>
                 Don't scroll down to the end. This is a blatant scroll bait.
                 `
             },
@@ -180,19 +145,8 @@ export const regionContent = {
                 content: [
                     {
                         type: "text",
-                        textFile: "content/about_this_website/vcinfo"
-                    },
-                    {
-                        type: "divider"
-                    },
-                    {
-                        type: "highlight",
-                        textFile: "content/about_this_website/vc1"
-                    },
-                    {
-                        type: "highlight",
-                        textFile: "content/about_this_website/vc2"
-                    },
+                        textFile: "about_this_website/vcinfo"
+                    }
                 ]
             },
             "info.2": {
@@ -259,12 +213,8 @@ export const regionContent = {
                 subtitle: "",
                 content: [
                     {
-                        type: "highlight",
-                        content: "First battery was invented because people were arguing about how to correctly shock frog legs. <br> ~ around 1781 | Volta vs. Galvani on inherent animal electricity fluid"
-                    },
-                    {
-                        type: "highlight",
-                        content: "Placeholder <br> ~ date | context"
+                        type: "text",
+                        textFile: "random/fun_facts"
                     }
                 ]
             },
@@ -275,57 +225,9 @@ export const regionContent = {
                 content: [
                     {
                         type: "highlight",
-                        textFile: "content/random/qm/qmdisclaimer"
+                        textFile: "random/qm"
                     },
-                    {
-                        type: "text",
-                        textFile: "content/random/qm/qmintro"
-                    },
-                    {
-                        type: "divider"
-                    },
-                    {
-                        type: "text",
-                        textFile: "content/random/qm/qm1"
-                    },
-                    {
-                        type: "list",
-                        title: "Now this is where the fun begins. What will happen if we:",
-                        items: [
-                            "ask our Prof to sort the fancy balls by its colour first (black / white)",
-                            "take only the black balls and let our Prof sort it again by its complexity (hard / squishy)",
-                            "from this batch, only take the hard ones",
-                            "using this batch of hard balls, ask our Prof again to sort it by its colour"
-                        ]
-                    },
-                    {
-                        type: "text",
-                        textFile: "content/random/qm/qm2"
-                    },
-                    {
-                        type: "divider",
-                        style: {
-                            margin: "2rem auto",
-                            height: "2px",
-                            width: "90%",  // Makes it even shorter
-                            color: "rgba(255, 255, 255, 0.2)"
-                        }
-                    },
-                    {
-                        type: "text",
-                        textFile: "content/random/qm/qm3"
-                    },
-                    {
-                        type: "highlight",
-                        textFile: "content/random/qm/qmquote"
-                    },
-                    {
-                        type: "text",
-                        textFile: "content/random/qm/qm4"
-                    },
-                    {
-                        type: "divider"
-                    }
+                    
                 ]
             },
             "random.3": {
