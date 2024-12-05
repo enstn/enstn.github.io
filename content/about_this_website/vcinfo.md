@@ -1,6 +1,5 @@
 ### ==The current version does not support mobile integration and is purely written for desktop application.==<br /><br />
   
-
 Version-based cookie & cache reset was introduced on the *24th of November 2024 at 18:57 CET*. Please update the site if you have visited before this date of time by either: 
 - reload the page by clicking the title 
 - or running following function in your browser console: ```checkVersion()```

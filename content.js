@@ -236,28 +236,8 @@ export const regionContent = {
                 content: [
                     {
                         type: "text",
-                        textFile: "content/random/webdev/webdevintro"
-                    },
-                    {
-                        type: "highlight",
-                        textFile: "content/random/webdev/webdev1"
-                    },
-                    {
-                        type: "highlight",
-                        textFile: "content/random/webdev/webdev2"
-                    },
-                    {
-                        type: "highlight",
-                        textFile: "content/random/webdev/webdev3"
-                    },
-                    {
-                        type: "highlight",
-                        textFile: "content/random/webdev/webdev4"
-                    },
-                    {
-                        type: "highlight",
-                        textFile: "content/random/webdev/webdev5"
-                    },
+                        textFile: "random/webdev"
+                    },  
                 ]
             }
         },
