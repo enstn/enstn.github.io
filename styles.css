@@ -779,20 +779,41 @@ body {
     }
 
     /* Social Links - fixed to bottom right corner */
-    .social-links {
+   .social-links {
         position: fixed;
         bottom: 1rem;
         right: 1rem;
-        z-index: 100;
+        z-index: 1000;
         display: flex;
         gap: 0.75rem;
     }
 
+    /* Reset absolute positioning for mobile */
+    .social-github,
+    .social-instagram,
+    .social-email {
+        position: relative;
+        bottom: auto;
+        right: auto;
+    }
+
+    /* Adjust box sizes for mobile */
     .social-box {
         width: clamp(1.75rem, 3.5vw, 2.25rem);
         height: clamp(1.75rem, 3.5vw, 2.25rem);
     }
 
+    /* Make sure icons are centered */
+    .social-icon {
+        width: 60%;
+        height: 60%;
+    }
+
+    /* Ensure touch targets are large enough */
+    .social-link {
+        display: block;
+        padding: 0.25rem;
+    }
     /* Content Items */
     .book-item,
     .date-item {
