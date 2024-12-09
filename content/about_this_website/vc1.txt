@@ -1,6 +1,0 @@
-<span class="text-highlight-bold">VERSION 1.0.1</span> <br> <br>
-
-- added version-based cache-control <br>
-- introduced .txt file based dynamic content loader <br>
-- fixed colour gradient & opacity differences across safari & firefox browsers <br>
-- implemented hotkeys for mouseless people (i was procrastinating on uni stuff) <br>
