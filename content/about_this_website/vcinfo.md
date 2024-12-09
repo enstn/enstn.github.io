@@ -1,4 +1,4 @@
-### ==The current version (1.0.1) doesn't support mobile integration and is purely written for desktop application.==
+### ==The current version (1.0.2) doesn't support mobile integration and is purely written for desktop application.==
 >Version-based cookie & cache reset was introduced on the *24th of November 2024 at 18:57 CET*. Please update the site if you have visited before this date of time by either: 
 >- reload the page by clicking the title 
 >- or running following function in your browser console: ```checkVersion()```

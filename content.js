@@ -226,7 +226,7 @@ export const regionContent = {
                 // accentColor: "rbga(225, 225, 225, 0.8",
                 content: [
                     {
-                        type: "highlight",
+                        type: "text",
                         textFile: "random/qm"
                     },
                     
