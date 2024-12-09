@@ -687,55 +687,53 @@ body {
 
 /* Complete Mobile Responsive Design */
 @media screen and (orientation: portrait), (max-width: 48rem) {
+    
     /* Legend Transformations */
     #brain-legend {
-        /* Reposition to bottom */
+        /* Reposition to bottom left */
         left: 0;
         right: 0;
         bottom: 0;
         top: auto;
         transform: none;
         
-        /* Make horizontal */
+        /* Make horizontal starting from left */
         flex-direction: row;
-        justify-content: center;
+        justify-content: flex-start;
         gap: clamp(1.5rem, 4vw, 2.5rem);
         
         /* Add background */
         background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
         width: 100%;
-        padding: clamp(1rem, 3vh, 1.5rem);
+        padding: clamp(1rem, 3vh, 1.5rem) clamp(2rem, 5vw, 3rem);
         
         /* Ensure proper z-index */
         z-index: 100;
     }
 
-    /* Legend Item Adjustments */
+    /* Modify the line to be horizontal */
+    #brain-legend::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 50%;
+        height: 2px;
+        background: linear-gradient(
+            to right,
+            transparent,
+            rgba(255, 255, 255, 0.1) 20%,
+            rgba(255, 255, 255, 0.1) 80%,
+            transparent
+        );
+    }
+
+    /* Hide all legend content in portrait mode */
     .legend-content {
-        left: 50%;
-        bottom: 100%;
-        transform: translateX(-50%) translateY(-0.625rem);
-        margin-bottom: 0.5rem;
-        min-width: auto;  /* Remove minimum width */
-        padding: 0.4rem 0.6rem;  /* Reduce padding */
-        backdrop-filter: none;  /* Remove blur for better performance */
-        background: rgba(0, 0, 0, 0.95);  /* Darker background instead */
+        display: none;
     }
 
-    /* Adjust text sizes in pop-up */
-    .legend-content .region-title {
-        font-size: 0.7rem;
-        margin-bottom: 0;  /* Remove margin */
-    }
-
-    .legend-content .region-description {
-        display: none;  /* Hide description in portrait mode */
-    }
-
-    /* Adjust hover behavior */
-    .legend-item:hover .legend-content {
-        transform: translateX(-50%) translateY(0);
-    }
     /* Hide legend when info panel is active */
     #info-panel.active ~ #brain-legend {
         display: none;
@@ -778,10 +776,14 @@ body {
         font-size: clamp(0.875rem, 2vw, 1rem);
     }
 
-    /* Social Links */
+    /* Social Links - fixed to bottom right corner */
     .social-links {
-        bottom: clamp(5rem, 12vh, 6rem); /* Moved up to avoid legend overlap */
-        right: clamp(0.5rem, 2vw, 1rem);
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        z-index: 100;
+        display: flex;
+        gap: 0.75rem;
     }
 
     .social-box {
@@ -812,29 +814,12 @@ body {
 @media screen and (max-width: 30rem) {
     #brain-legend {
         gap: clamp(1rem, 3vw, 1.5rem);
-        padding: clamp(0.75rem, 2vh, 1rem);
+        padding: clamp(0.75rem, 2vh, 1rem) clamp(1.5rem, 4vw, 2rem);
     }
 
     .legend-item::before {
         width: 0.6rem;
         height: 0.6rem;
-    }
-
-    /* Adjust social links for very small screens */
-    .social-links {
-        display: flex;
-        gap: 0.5rem;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-
-    .social-github,
-    .social-instagram,
-    .social-email {
-        position: relative;
-        top: auto;
-        right: auto;
-        bottom: auto;
     }
 
     /* Ensure content is readable */
