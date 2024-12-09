@@ -1,13 +1,28 @@
-> This website documents my learning progress and [readings](region:booklist) regarding:
-> -> **consciousness**, **machine learning** & **neurobiology**
+> This website was made by [me](region:info:info.3) to document coding projects, [random findings](region:random) and [readings](region:booklist). Especially regarding consciousness, machine learning & neurobiology. <br> 
+> -> And to practice my writing & grant my family peace from my eternal yapping.
 
-... and some other [random stuff](region:random) to further increase entropy. Blogging here grants my family peace from my eternal yapping. If you experience website issues, please check the [version control](region:info:info.1).
+---
+<br>
 
-> To explore the website, just click on the links or the tiny boxes on your left. 
-> [Hotkeys](region:info:info.2) are also available. 
+### Latest Entries: 
+<div class="date-item">
+    <span class="region-link" data-region="random" data-subpage="random.2">Cheese Is Where The Magic Happens</span>
+    <div class="date-dots"></div>
+    <span class="date-label">quantum mechanics rant</span>
+</div>
+<div class="date-item">
+    <span class="region-link" data-region="1" data-subpage="1.1">Introduction to Telepathy</span>
+    <div class="date-dots"></div>
+    <span class="date-label">bci project</span>
+</div>
 
-#### Few Things About Me
-- electrical engineering student at ETH Zurich
-- currently working on telepathy; here's the [intro](region:1:1.1) if you're interested
 
-Huge shoutout to Francesco Mchlini for providing a free brain model and a 3D rendering tutorial. Special thanks to my sister for being the most patient web test client.
+
+<br>
+
+---
+
+> If you experience website issues or weird layouts, please check the [version control](region:info:info.1). Desktop [hotkeys](region:info:info.2) are also available. 
+
+Don't scroll down to the end. This is blatant scroll bait.
+
