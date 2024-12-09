@@ -119,15 +119,6 @@ export const regionContent = {
               textFile: "about_this_website/welcome"
             },
             {
-                type: "divider"
-            },
-            {
-                type: "text",
-                content: `
-                Don't scroll down to the end. This is a blatant scroll bait.
-                `
-            },
-            {
                 type: "text",
                 content: "<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>"
             },
@@ -140,7 +131,7 @@ export const regionContent = {
         subpages: {
             "info.1": {
                 title: "Version Control",
-                // accentColor: "rgba(255, 225, 225, 1)",
+                accentColor: "rgba(255, 225, 225, 1)",
                 subtitle: "",
                 content: [
                     {
@@ -151,7 +142,7 @@ export const regionContent = {
             },
             "info.2": {
                 title: "Hotkeys",
-                // accentColor: "rgba(255, 225, 225, 1)", maybe pinkish comes from here
+                accentColor: "rgba(255, 225, 225, 1)", // maybe pinkish comes from here
                 subtitle: "not vim-styled, sorry F.K.",
                 content: [
                     {
@@ -169,6 +160,17 @@ export const regionContent = {
                     }
                 ]
             },
+            "info.3": {
+                title: "About Me",
+                subtitle: "",
+                content: [
+                    {
+                        type: "text",
+                        textFile: "about_this_website/about_me"
+                    }
+                ]
+            },
+
         },
         accentColor: "rgba(255, 0, 0, 0.69)"
     },
@@ -232,7 +234,8 @@ export const regionContent = {
             },
             "random.3": {
                 title: "Website-Development 101",
-                subtitle: "made for you | so you can avoid mistakes I did while developing this website, ",
+                subtitle: "",
+                accentColor: "rbga(225, 225, 225, 0.8)",
                 content: [
                     {
                         type: "text",
@@ -245,7 +248,7 @@ export const regionContent = {
     },
     "1": {
         title: "Imagined Speech Recognition",
-        subtitle: "using electroencephalogram-based BCI to achieve telepathy | because, unfortunately, Hogwarts' letter never arrived",
+        subtitle: "electroencephalogram based brain computer interface",
         content: [
             {
                 type: "link",
@@ -261,9 +264,9 @@ export const regionContent = {
                 type: "text",
                 content: `
                 <div class="date-item">
-                    <span class="region-link" data-region="1" data-subpage="1.1">Muggles' Equivalent of Magic</span>
+                    <span class="region-link" data-region="1" data-subpage="1.1">Introduction to Telepathy</span>
                     <div class="date-dots"></div>
-                    <span class="date-label">introduction</span>
+                    <span class="date-label">prefix</span>
                 </div>
                 `
             },
@@ -271,120 +274,32 @@ export const regionContent = {
                 type: "text",
                 content: `
                 <div class="date-item">
-                    <span class="region-link" data-region="1" data-subpage="1.2">Introduction to Telepathy</span>
+                    <span class="region-link" data-region="1" data-subpage="1.2">Project Update: 1</span>
                     <div class="date-dots"></div>
-                    <span class="date-label">chapter 1</span>
+                    <span class="date-label">09/Dec/2024</span>
                 </div>
                 `
             }
         ],
         subpages: {
             "1.1": {
-                title: "Muggles' Equivalent of Magic",
-                subtitle: "introduction chapter",
+                title: "Introduction to Telepathy",
+                subtitle: "intro chapter | general info",
                 accentColor: "rgba(225, 225, 225, 1)",
                 content: [
                     {
-                        type: "highlight",
-                        content: `
-			            Imagine typing "Hello World". Not with your fingers, but by simply <span class=\"text-italic\"> imagining </span>  the letters. 
-			            `
-                    },
-                    {
                         type: "text",
-                        content: `
-			            Does this sound like science fiction? Or some black magic vodoo written in fantasy? To be honest, I too wasn't aware of this possibility... until a few weeks ago. 
-                        So, dear reader, I invite you to join me. <br> <br>
-                        
-                        This will be our technological crusade against the universe's cruel refusal to gift humanity with magic.
-                        For this might be our most promising shot yet towards archieving man-made telepathy without touching a wand. <br> <br>
-
-			            Let me set the stage before we head straight in. My university mandates students to attend so-called P&S's (Praktikum & Seminare). By doing so, the all-mighty education system hopes to bestow hands-on-experience upon our 
-			            little peasant brains. Yeah, <span class=\"text-italic\">right</span>. Sitting around for three hours on a random Tuesday afternoon will <span class=\"text-italic\">surely</span> give us profound insights into the technological 
-			            landscape molded by homo sapiens. <br> <br> Obviously not. Dimwit. <br> <br>
-
-                        Most P&S time-bounds simply don't allow the teachers to go beyond the surface. And most students don't venture beyond the shown surface. <br> <br>
-
-			            Therefore, P&S naturally turns into a game of min-maxing credit-efficiency. You have the grand choice between the following: 
-                        `
-                    },
-                    {
-                        type: "list",
-                        title: "",
-                        items: [
-                            `
-                            invest extra effort with no extra credits to explore spectacular (but exam-irrelevant) concepts
-                            `,
-                            `
-                            choose something vaguely interesting which doesn't suffocate your exam time 
-                            `,
-                        ]
-                    },
-                    {
-                        type: "text",
-                        content: `
-                        The true <span class=\"text-italic\">spirit of education</span> demands option one, but who cares about spirits in this day and age anyways? (Besides, maybe, alcoholics.) Like seriously.
-			            What truly matters is option two: passing exams, quickly getting a degree and crunching numbers in excell sheets for five decades. <br> 
-                        A modern human shall exist exclusively to maximise shareholders value and stop only once to upload itself into an eternal game of death jockeying.
-                        `
-                    },
-                    {
-                        type: "divider",
-                        style: {
-                            margin: "2rem auto",
-                            height: "2px",
-                            width: "90%",  // Makes it even shorter
-                            color: "rgba(255, 255, 255, 0.2)"
-                        }
-                    },
-                    {
-                        type: "text",
-                        content: `
-                        Jokes aside, I'm no better. Almost all of my previous P&S were selected based on credit-efficiency with a slight interest in the covered topics.
-                        That being said, if you were willing to sacrifice your free time & quite a bit of beauty sleep, and if you were willing to voluntarily dig deeper into P&S related 
-                        research fields - you'll find amazing professors and PhDs welcoming our combined single-digit IQ.
-                        
-                         <br> <br> 
-                        A late-night research session, an extra question after class or even paper request followed by a teacher's response is not nearly as magical as a letter from Hogwarts, but it sure is mighty.
-                        After all, you just gained a kind-hearted opportunity to learn from the wizards of the 21st century. Why wield wooden sticks if you can wield science? <br> <br> 
-
-                        Which brings us back to our journey into telepathy, started by a single mail:
-                        `
-                    },
-                    {
-                        type: "highlight",
-                        content: `
-                        21.11.2024 | 21:12 <br> <br>
-                        From: <br>
-                        To: <br>
-                        Subject: Opportunity to Collaborate on Speech Imagery Project <br> 
-                        ... <br>
-                        `
-                    },
-                    {
-                        type: "text",
-                        content: `
-                        And so, dear reader, we begin. Let's imagine letters, wielding the power of 21st-century wizardry, and see just how close we can get to breaking the barriers between mind and machine.
-                        `
-                    },
-                    {
-                        type: "divider"
-                    },
-                    {
-                        type: "text",
-                        content: `
-                        -> <span class=\"region-link\" data-region=\"1\" data-subpage=\"1.2\">[Chapter One: Introduction To Telepathy]</span>
-                        `
+                        textFile: "telepathy/telepathy_intro"
                     }
                 ]
             },
             "1.2": {
-                title: "Introduction to Telepathy",
-                subtitle: "chapter 1",
+                title: "Data Acquisition",
+                subtitle: "project update: 1",
                 content: [
                     {
                         type: "text",
-                        content: "blablabla."
+                        testFile: "telepathy/telepathy_1"
                     },
                 ]
             }
@@ -472,9 +387,9 @@ export const regionContent = {
                         score: 9
                     },
                     {
-                        id: "place-holder",
-                        title: "placeholer for template",
-                        author: "",
+                        id: "GEB",
+                        title: "Gödel, Escher, Bach",
+                        author: "Douglas R. Hofstadter",
                         score: 0
                     }
                 ]
@@ -487,21 +402,17 @@ export const regionContent = {
                 content: [
                     {
                         type: "highlight",
-                        content: "9/10 - Fascinating insights into neuroplasticity"
-                    },
+                        textFile: "readings/brain_that_changes_itself"
+                    }
                 ]
             },
-            "place-holder": {
-                title: "template",
-                subtitle: "blabla",
+            "GEB": {
+                title: "Gödel, Escher, Bach",
+                subtitle: "Douglas R. Hofstadter",
                 content: [
                     {
                         type: "highlight",
-                        content: "Score: 0/10 - blabla"
-                    },
-                    {
-                        type: "text",
-                        content: "notes about this book..."
+                        textFile: "readings/GEB"
                     }
                 ]
             }

@@ -23,15 +23,24 @@ Here are your two key takeaways:
 1. we can filter and sort a batch of balls by measuring one of its two attributes (hard/squishy and black/white) 
 2. the attributes are not dependent on each other (filtering by one attribute gives a random distribution for the other) 
 
+---
+<br>
 
-What do you think, what percentage in our final batch of hard balls will be black? <br> <br>
+==Now this is where the fun starts.== What if we:
+
+> 1) ask our Prof to sort the fancy balls by its colour first (black / white)
+> 2) take *only the black balls* and let our Prof sort it again by its complexity (hard / squishy)
+> 3) from this batch, *only take the hard ones*
+> 4) using this batch of hard balls, ask our Prof again to sort it by its colour
+
+**What do you think, what percentage in our final batch of hard balls will be black?** <br> <br>
 
 Since you are a smart and logical individual who hasn’t been doing too much drugs and therefore possesses a healthy prefrontal cortex, you will hopefully grin at this task and wonder why this awfully ballsy introduction to quantum mechanics is so *easy*. <br><br>
 
 So here's our prediction: **since we already filtered out all white balls at first, only black balls got through in the first place. So of course 100% of the balls after the hard/squishy sorting will be black, since no white ball ever arrived at the hard/squishy sorting!**<br> <br>
 
 Pahahahh how easy, right? Look, I'm joining your superior mental scoff at this ridiculous simple question. <br> 
-**EXCEPT IT'S WRONG** Our thought experiment was the simplification of real quantum experiments, which were already done countless times by smart and probabaly important people. They produced the same puzzling results that still haunts me till today: <br> <br>
+**EXCEPT IT'S WRONG**. Our thought experiment was the simplification of real quantum experiments, which were already done countless times by smart and probabaly important people. They produced the same puzzling results that still haunts me till today: <br> <br>
 
 ==The balls that were 100% black before hard/squishy sorting now consists of 50% white balls and 50% black balls after the hard/squishy sorting.== <br> <br>
 

@@ -444,7 +444,7 @@ body {
     font-size: 1.1rem;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 0.25rem;
-    color: rgb(157, 114, 6);
+    color: rgba(225, 225, 225, 1);
 }
 
 .link-description {
