@@ -323,6 +323,20 @@ body {
     transition: all 0.3s ease;
 }
 
+/*for external links: region-content a*/
+
+.region-content a {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: all 0.3s ease;
+}
+
+.region-content a:hover {
+    color: rgba(80, 243, 248, 0.8);
+    text-decoration-style: solid;
+}
+
 .region-link:hover {
     color: rgba(255, 0, 0, 1);
     text-decoration-style: solid;
@@ -671,62 +685,166 @@ body {
     100% { opacity: 1.0; }
 }
 
-/* Responsive Design */
-@media (max-width: 48rem) { /* 768px */
+/* Complete Mobile Responsive Design */
+@media screen and (orientation: portrait), (max-width: 48rem) {
+    /* Legend Transformations */
     #brain-legend {
-        left: 1%;
-        gap: 3vh;
-    }
-    
-    .legend-content {
-        min-width: clamp(140px, 50vw, 200px);
-    }
-    
-    .header {
-        padding: 3vh 3vw;
-    }
-
-    #info-panel {
+        /* Reposition to bottom */
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: auto;
+        transform: none;
+        
+        /* Make horizontal */
+        flex-direction: row;
+        justify-content: center;
+        gap: clamp(1.5rem, 4vw, 2.5rem);
+        
+        /* Add background */
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
         width: 100%;
-        padding: 3vh 3vw;
-    }
-    
-    .close-panel {
-        top: 3%;
-        right: 3%;
+        padding: clamp(1rem, 3vh, 1.5rem);
+        
+        /* Ensure proper z-index */
+        z-index: 100;
     }
 
-    .panel-navigation {
-        top: 1rem;
-        right: 1rem;
-        gap: 0.5rem;
+    /* Legend Item Adjustments */
+    .legend-content {
+        left: 50%;
+        bottom: 100%;
+        transform: translateX(-50%) translateY(-0.625rem);
+        margin-bottom: 0.5rem;
+        min-width: auto;  /* Remove minimum width */
+        padding: 0.4rem 0.6rem;  /* Reduce padding */
+        backdrop-filter: none;  /* Remove blur for better performance */
+        background: rgba(0, 0, 0, 0.95);  /* Darker background instead */
     }
-    
-    .nav-button {
-        width: 2rem;
-        height: 2rem;
-        font-size: 1.2rem;
+
+    /* Adjust text sizes in pop-up */
+    .legend-content .region-title {
+        font-size: 0.7rem;
+        margin-bottom: 0;  /* Remove margin */
+    }
+
+    .legend-content .region-description {
+        display: none;  /* Hide description in portrait mode */
+    }
+
+    /* Adjust hover behavior */
+    .legend-item:hover .legend-content {
+        transform: translateX(-50%) translateY(0);
+    }
+    /* Hide legend when info panel is active */
+    #info-panel.active ~ #brain-legend {
+        display: none;
+    }
+
+    /* Info Panel Adjustments */
+    #info-panel {
+        width: 100vw;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        padding: clamp(1rem, 5vh, 2rem) clamp(1rem, 5vw, 2rem);
+    }
+
+    .region-content {
+        max-width: 100%;
+        margin: 0 auto;
+        padding-bottom: 5rem; /* Ensure content doesn't get cut off by legend */
+    }
+
+    /* Header Adjustments */
+    .header {
+        padding: clamp(0.75rem, 2vh, 1.5rem) clamp(1rem, 3vw, 2rem);
+    }
+
+    .header h1 {
+        font-size: clamp(1.75rem, 5vw, 2.5rem);
+    }
+
+    .header p {
+        font-size: clamp(0.875rem, 2vw, 1.1rem);
+    }
+
+    /* Content Typography */
+    .region-header h2 {
+        font-size: clamp(1.75rem, 5vw, 2.5rem);
+    }
+
+    .region-header h3 {
+        font-size: clamp(0.875rem, 2vw, 1rem);
+    }
+
+    /* Social Links */
+    .social-links {
+        bottom: clamp(5rem, 12vh, 6rem); /* Moved up to avoid legend overlap */
+        right: clamp(0.5rem, 2vw, 1rem);
+    }
+
+    .social-box {
+        width: clamp(1.75rem, 3.5vw, 2.25rem);
+        height: clamp(1.75rem, 3.5vw, 2.25rem);
+    }
+
+    /* Content Items */
+    .book-item,
+    .date-item {
+        padding: clamp(0.5rem, 2vh, 0.75rem);
+    }
+
+    .book-dots,
+    .date-dots {
+        margin: 0 clamp(0.5rem, 2vw, 1rem);
+    }
+
+    /* Close Button */
+    .close-panel {
+        top: clamp(0.75rem, 2vh, 1rem);
+        right: clamp(0.75rem, 2vw, 1rem);
+        font-size: clamp(1.25rem, 4vw, 1.5rem);
     }
 }
 
-/* For very small screens */
-@media (max-width: 30rem) { /* 480px */
+/* Additional Small Screen Optimizations */
+@media screen and (max-width: 30rem) {
     #brain-legend {
-        gap: 2vh;
+        gap: clamp(1rem, 3vw, 1.5rem);
+        padding: clamp(0.75rem, 2vh, 1rem);
     }
-    
-    .legend-content {
-        min-width: clamp(120px, 60vw, 160px);
+
+    .legend-item::before {
+        width: 0.6rem;
+        height: 0.6rem;
     }
+
+    /* Adjust social links for very small screens */
     .social-links {
-        top: 1rem;
-        right: 1rem;
+        display: flex;
         gap: 0.5rem;
+        flex-direction: row;
+        justify-content: flex-end;
     }
-    
-    .social-box {
-        width: 2rem;
-        height: 2rem;
-        font-size: 0.8rem;
+
+    .social-github,
+    .social-instagram,
+    .social-email {
+        position: relative;
+        top: auto;
+        right: auto;
+        bottom: auto;
+    }
+
+    /* Ensure content is readable */
+    .region-content {
+        font-size: clamp(0.875rem, 2.5vw, 1rem);
+        line-height: 1.7;
+    }
+
+    /* Adjust padding for better space usage */
+    #info-panel {
+        padding: clamp(0.75rem, 4vh, 1.5rem) clamp(0.75rem, 4vw, 1.5rem);
     }
 }

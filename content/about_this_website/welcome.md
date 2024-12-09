@@ -4,19 +4,17 @@
 ---
 <br>
 
-### Latest Entries: 
-<div class="date-item">
-    <span class="region-link" data-region="random" data-subpage="random.2">Cheese Is Where The Magic Happens</span>
-    <div class="date-dots"></div>
-    <span class="date-label">quantum mechanics rant</span>
-</div>
+#### **Latest Entries:** 
 <div class="date-item">
     <span class="region-link" data-region="1" data-subpage="1.1">Introduction to Telepathy</span>
     <div class="date-dots"></div>
     <span class="date-label">bci project</span>
 </div>
-
-
+<div class="date-item">
+    <span class="region-link" data-region="random" data-subpage="random.2">Cheese Is Where The Magic Happens</span>
+    <div class="date-dots"></div>
+    <span class="date-label">quantum mechanics rant</span>
+</div>
 
 <br>
 

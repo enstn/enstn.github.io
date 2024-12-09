@@ -284,7 +284,7 @@ export const regionContent = {
         subpages: {
             "1.1": {
                 title: "Introduction to Telepathy",
-                subtitle: "intro chapter | general info",
+                subtitle: "project prefix",
                 accentColor: "rgba(225, 225, 225, 1)",
                 content: [
                     {
