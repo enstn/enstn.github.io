@@ -128,7 +128,7 @@ export class BrainVisualization {
       uColor: { value: this.baseColor },
       uHoverColor: { value: new THREE.Color() },
       uRotation: { value: 0 },
-      uSize: { value: 1 },
+      uSize: { value: 1.4 },
 
       // mobile ripple animation
       uTouchActive: { value: 0 },
@@ -236,7 +236,7 @@ export class BrainVisualization {
             const colorIndex = Math.floor(Math.random() * this.hoverColors.length);
             material.uniforms.uHoverColor.value.copy(this.hoverColors[colorIndex]);
             material.uniforms.uRotation.value = THREE.MathUtils.randFloat(-1, 1);
-            material.uniforms.uSize.value = THREE.MathUtils.randFloat(0.3, 3);
+            // material.uniforms.uSize.value = THREE.MathUtils.randFloat(0.3, 3);
           }
 
           this.scene.add(this.instancedMesh);
@@ -337,8 +337,8 @@ export class BrainVisualization {
 
   _setupTouchHandling() {
     let touchAnimation;
-    const RIPPLE_DURATION = 1500; // Faster animation
-    const MAX_RIPPLE_RADIUS = 1.0; // Adjusted radius for better wave visibility
+    const RIPPLE_DURATION = 2000; // Faster animation
+    const MAX_RIPPLE_RADIUS = 2.0; // Adjusted radius for better wave visibility
 
     const startRipple = (touchPoint) => {
       this.raycaster.setFromCamera(
