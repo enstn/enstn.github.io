@@ -1,4 +1,8 @@
-### ==The current version (1.0.2) only partly supports mobile integration and is mainly written for desktop application.==
+### ==The current version (1.0.2) is mainly written for desktop application.== 
+<br>
+Although I spent a few hours coding the touch handling, the best experience is still on your Laptop & with a mouse. <br><br> 
+
+---
 <br>
 
 Version-based cookie & cache reset was introduced on the *24th of November 2024 at 18:57 CET*. Please update the site if you have visited before this date of time by either: 
@@ -14,8 +18,9 @@ Huge shoutout to Francesco Michilini for providing a free brain model and a 3D r
 
 > ## Version 1.0.2
 > - markdown integration with existing custom content flags 
-> - (bad but existing) mobile integration 
-> - moved from ETHZ domain hosting to github pages 
+> - mobile integration 
+> - latest entry embedding in welcome page
+> - moved from ETHZ domain to github pages hosting a custom domain 
 
 --- 
 

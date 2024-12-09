@@ -6,12 +6,8 @@
 > ```
 > checkVersion()
 > ```
-> The website will automatically update outdated versions after that. The current version does not support mobile integration, 
-> it's purely written for desktop.
+> The website will automatically update outdated versions after that. The latest version is: 1.0.2 
 
 ## ToDo
-- [ ] very simple project progress time-line
-- [ ] a lil local chatbot to lower performance even more pahahah 
+- [ ] a lil chatbot to lower performance even more pahahah 
 - [ ] brain game
-- [ ] local cache reset still not working on new text import
-- [ ] switch from .txt to .md based content rendering
