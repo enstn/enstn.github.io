@@ -95,7 +95,7 @@ mvPosition = instanceMatrix * vec4(pos, 1.0);
 gl_Position = projectionMatrix * modelViewMatrix * mvPosition;
 
 // Color blending
-vec3 rippleColor = vec3(1.0, 0.85, 0.0); // Golden yellow
+vec3 rippleColor = vec3(1.0, 0.84, 0.0); // Golden yellow
 vec3 finalColor = mix(uColor, uHoverColor, c * uHover);
 finalColor = mix(finalColor, rippleColor, rippleWave);
 vColor = finalColor;
